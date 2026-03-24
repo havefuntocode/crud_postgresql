@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Umgebungsvariablen
+.env
+ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+ 
+# VS Code
+.vscode/
+ 
+# Distribution
+dist/
+build/
+*.egg-info/
+ 
