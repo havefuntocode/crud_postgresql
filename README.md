@@ -29,6 +29,17 @@ CREATE TABLE employees (
     salary     NUMERIC(10,2),
     hire_date  DATE
 );
+
+INSERT INTO employees (first_name, last_name, department, salary, hire_date) VALUES
+    ('Anna',    'Müller',    'Engineering',  72000.00, '2021-03-15'),
+    ('Ben',     'Schmidt',   'Marketing',    58000.00, '2020-07-01'),
+    ('Clara',   'Weber',     'Engineering',  81000.00, '2019-11-20'),
+    ('David',   'Fischer',   'HR',           54000.00, '2022-01-10'),
+    ('Eva',     'Becker',    'Marketing',    62000.00, '2021-09-05'),
+    ('Frank',   'Hoffmann',  'Engineering',  91000.00, '2018-04-22'),
+    ('Greta',   'Schulz',    'HR',           51000.00, '2023-06-01'),
+    ('Hans',    'Wagner',    'Sales',        67000.00, '2020-02-14');
+
 ```
 
 ## Claude Desktop Konfiguration
